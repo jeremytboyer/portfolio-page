@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+@media screen and (max-width: 532px) {
+.logo h1 {
+  font-size: 1.5em;
+}
+}
+
 #navbar ul {
   margin: 0;
   padding: 5px;
@@ -32,10 +38,13 @@ header {
   justify-content: space-between;
   padding: 0 1rem;
   position: fixed;
+  transform: translate(0, 0);
   top: 0;
   left: 0;
   right: 0;
   background-color: #fff;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
 
 .hero {
@@ -79,7 +88,7 @@ header {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 946px) {
+@media screen and (max-width: 741px){
   .container {
     display: block;
   }
