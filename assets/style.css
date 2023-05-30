@@ -3,10 +3,17 @@
   margin: 0;
 }
 
-@media screen and (max-width: 532px) {
-.logo h1 {
+@media screen and (max-width: 540px) {
+.logo {
   font-size: 1.5em;
 }
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
 }
 
 #navbar ul {
@@ -43,8 +50,9 @@ header {
   left: 0;
   right: 0;
   background-color: #fff;
-  padding-bottom: 10px;
+  padding:10px 20px;
   border-bottom: 1px solid black;
+  z-index: 999;
 }
 
 .hero {
@@ -109,6 +117,16 @@ header {
   width: 100%;
 }
 
+.hover:hover {
+  /* back[ground-color: steelblue; 
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply; */
+  transform: translate(0, -10px);
+  transition: all 1s;
+  z-index: 09;
+}
+
 footer {
   background-color: #000;
   color: #fff;
@@ -118,6 +136,10 @@ footer {
 
 footer a {
   color: #fff;
+}
+
+.contact h2 {
+  margin-bottom: 2%;
 }
 
 .contact h3 {
