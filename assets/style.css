@@ -114,6 +114,18 @@ header {
   }
 }
 
+@media (max-width: 768px) {
+  .container-col-3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1060px) {
+  .first-project p {
+    padding: 0 15px;
+  }
+}
+
 .container-col-3 {
   padding: 0 15px;
   margin-bottom: 50px;
