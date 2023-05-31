@@ -4,9 +4,9 @@
 }
 
 @media screen and (max-width: 540px) {
-.logo {
-  font-size: 1.5em;
-}
+  .logo {
+    font-size: 1.5em;
+  }
 }
 
 #navbar {
@@ -50,7 +50,7 @@ header {
   left: 0;
   right: 0;
   background-color: #fff;
-  padding:10px 20px;
+  padding: 10px 20px;
   border-bottom: 1px solid black;
   z-index: 999;
 }
@@ -94,7 +94,6 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  ;
 }
 
 .first-project {
@@ -103,7 +102,7 @@ header {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 741px){
+@media screen and (max-width: 741px) {
   .container {
     display: block;
   }
