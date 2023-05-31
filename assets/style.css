@@ -74,7 +74,7 @@ header {
 }
 
 .hero img {
-  width: 500px;
+  width: 400px;
   margin-left: 2em;
 }
 
@@ -85,9 +85,9 @@ header {
   .hero {
     display: block;
   }
-  .hero img {
+  /* .hero img {
     width: 90%;
-  }
+  } */
 }
 
 .container {
