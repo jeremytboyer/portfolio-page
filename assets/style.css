@@ -94,6 +94,13 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  ;
+}
+
+.first-project {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 741px){
