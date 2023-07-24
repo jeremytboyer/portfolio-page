@@ -3,7 +3,17 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,127 +30,144 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <div id="navbar">
-        <h1 class="logo">Jeremy Boyer</h1>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg position-sticky">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Jeremy Boyer</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </header>
-    <section id="about" class="hero">
-      <img src="./assets/jerm.jpg" alt="" />
-      <h2>
-        Hi, I'm Jeremy.
-        <p>
-          I'm a web developer Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Quis, officia maiores! Quisquam nostrum itaque libero, rerum
-          asperiores animi expedita et magnam maiores, voluptatum, voluptate
-          corrupti autem perspiciatis cupiditate laboriosam maxime?
-        </p>
-      </h2>
+    </nav>
+    <section id="about" class="hero my-5">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="./assets/jerm.jpg" alt="" />
+          </div>
+          <div class="col-lg-6 align-self-center">
+            <h2 class="px-0">Hi, I'm Jeremy.
+            </h2>
+              <p>
+                I'm a web developer Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Quis, officia maiores! Quisquam nostrum itaque
+                libero, rerum asperiores animi expedita et magnam maiores,
+                voluptatum, voluptate corrupti autem perspiciatis cupiditate
+                laboriosam maxime?
+              </p>
+            
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="portfolio" class="container">
+    <section id="portfolio" class="container mb-5">
       <div class="first-project hover">
-        <a href="./assets/dummy.png">
-          <img src="./assets/dummy.png" alt="project"
-        /></a>
-        <h3>Lorem Ipsum</h3>
+        
+          <img src="./assets/project-2-screenshot.png" alt="project"/>
+        
+        <h3>Rype Project</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ullam,
           modi incidunt voluptas in repellat ipsam reiciendis, quaerat quam.
         </p>
       </div>
-      <div class="container-col-3 hover">
-        <a href="./assets/dummy.png">
-          <img src="./assets/dummy.png" alt="project"
-        /></a>
-        <h3>Lorem Ipsum</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ullam,
-          modi incidunt voluptas in repellat ipsam reiciendis, quaerat quam.
-        </p>
-      </div>
-      <div class="container-col-3 hover">
-        <a href="./assets/dummy.png">
-          <img src="./assets/dummy.png" alt="project"
-        /></a>
-        <h3>Lorem Ipsum</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ullam,
-          modi incidunt voluptas in repellat ipsam reiciendis, quaerat quam.
-        </p>
-      </div>
-      <div class="container-col-3 hover">
-        <a href="./assets/dummy.png">
-          <img src="./assets/dummy.png" alt="project"
-        /></a>
-        <h3>Lorem Ipsum</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ullam,
-          modi incidunt voluptas in repellat ipsam reiciendis, quaerat quam.
-        </p>
-      </div>
-      <div class="container-col-3 hover">
-        <a href="./assets/dummy.png">
-          <img src="./assets/dummy.png" alt="project"
-        /></a>
-        <h3>Lorem Ipsum</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ullam,
-          modi incidunt voluptas in repellat ipsam reiciendis, quaerat quam.
-        </p>
-      </div>
-      <div class="container-col-3 hover">
-        <a href="./assets/dummy.png">
-          <img src="./assets/dummy.png" alt="project"
-        /></a>
-        <h3>Lorem Ipsum</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ullam,
-          modi incidunt voluptas in repellat ipsam reiciendis, quaerat quam.
-        </p>
-      </div>
-      <div class="container-col-3 hover">
-        <a href="./assets/dummy.png">
-          <img src="./assets/dummy.png" alt="project"
-        /></a>
-        <h3>Lorem Ipsum</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ullam,
-          modi incidunt voluptas in repellat ipsam reiciendis, quaerat quam.
-        </p>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-4 hover">
+            <a href="./assets/dummy.png">
+              <img src="./assets/dummy.png" alt="project" width="100%"
+            /></a>
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
+              ullam, modi incidunt voluptas in repellat ipsam reiciendis,
+              quaerat quam.
+            </p>
+          </div>
+          <div class="col-md-4 hover">
+            <a href="./assets/dummy.png">
+              <img src="./assets/dummy.png" alt="project" width="100%"
+            /></a>
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
+              ullam, modi incidunt voluptas in repellat ipsam reiciendis,
+              quaerat quam.
+            </p>
+          </div>
+
+          <div class="col-md-4 hover">
+            <a href="./assets/dummy.png">
+              <img src="./assets/dummy.png" alt="project" width="100%"
+            /></a>
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
+              ullam, modi incidunt voluptas in repellat ipsam reiciendis,
+              quaerat quam.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
     <footer>
       <section id="contact" class="contact">
         <h2>Contact</h2>
         <div class="container">
-          <div class="container-col-3">
-            <h3>Email</h3>
-            <p>
-              <a href="mailto:jeremytboyer@gmail.com">jeremytboyer@gmail.com</a>
-            </p>
-          </div>
-          <div class="container-col-3">
-            <h3>GitHub</h3>
-            <p>
-              <a href="https://github.com/jeremytboyer" target="_blank"
-                >jeremytboyer</a
-              >
-            </p>
-          </div>
-          <div class="container-col-3">
-            <h3>Phone</h3>
-            <p>
-              <a href="tel:856-217-6051">856-217-6051</a>
-            </p>
+          <div class="row">
+            <div class="col-md-4">
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:jeremytboyer@gmail.com"
+                  >jeremytboyer@gmail.com</a
+                >
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h3>GitHub</h3>
+              <p>
+                <a href="https://github.com/jeremytboyer" target="_blank"
+                  >jeremytboyer</a
+                >
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h3>Phone</h3>
+              <p>
+                <a href="tel:856-217-6051">856-217-6051</a>
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <p>&copy; Jeremy Boyer</p>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="assets/script.js"></script>
   </body>
 </html>
